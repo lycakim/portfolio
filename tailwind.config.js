@@ -1,0 +1,21 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  darkMode: true, // or 'media' or 'class'
+  theme: {
+    extend: {
+      fontFamily: {
+        'raleway': ['Raleway']
+      },
+      colors: {
+        mainGreen: '#17A898',
+        gray: '#252529',
+      }
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
+
